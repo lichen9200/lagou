@@ -19,5 +19,8 @@ public interface UserMapper {
     public void updateUserStatus(@Param("id") Integer id, @Param("status") String status);
 
 
+    void test2();
+
+
     void test11();
 }
