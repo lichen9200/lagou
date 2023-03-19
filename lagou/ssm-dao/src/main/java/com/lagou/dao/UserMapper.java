@@ -17,4 +17,7 @@ public interface UserMapper {
      * 修改用户状态
      * */
     public void updateUserStatus(@Param("id") Integer id, @Param("status") String status);
+
+
+    void test11();
 }
